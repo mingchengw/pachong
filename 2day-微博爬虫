@@ -1,0 +1,21 @@
+#爬取微博名人所有的微博
+
+#需要将下面的内容获取出来，并且存储到数据库中
+#source
+#comments_count
+#attitudes_count
+#created_at
+#text
+
+#问题1：浏览到一定数量需要登录
+#解决办法：用手机端模式
+
+#作业：
+#1.查找JSON内部能够表示的数据类型有哪些
+#2.JSON本身就是一个字符串，用字符串的方式表示各种类型的数据
+
+
+import requests
+
+url = ''
+response = requests.get(url)
